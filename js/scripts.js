@@ -1,10 +1,11 @@
 // front
 $(document).ready(function () {
-  $("button").click(function () {
+  $("button").click(function (event) {
     var word = $("#word").val();
     var output = Encryption(word);
     $("#output").text(output);
     $("#sw").slideToggle();
+    event.preventDefault()
   });
 });
 
