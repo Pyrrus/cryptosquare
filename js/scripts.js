@@ -4,6 +4,7 @@ $(document).ready(function () {
     var word = $("#word").val();
     var output = Encryption(word);
     $("#output").text(output);
+    $("#sw").slideToggle();
   });
 });
 

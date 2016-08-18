@@ -1,0 +1,17 @@
+body {
+background-image: url("../img/starwars.jpg");
+text-align: center;
+text-shadow: 3px 2px blue;
+padding-top: 200px;
+opacity: 0.9;
+}
+
+#output {
+  padding: 10px;
+  font-size: 45px;
+}
+
+#sw {
+  display: none;
+  font-size: 45px;
+}
